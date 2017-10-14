@@ -1,0 +1,27 @@
+.footer {
+  background-color: #323232;
+
+  &__above {
+
+    margin: 0 20%;
+    padding-top: $gutter;
+    padding-bottom: 2 * $gutter;
+    display: flex;
+    justify-content: space-around;
+    color: #ffffff;
+  }
+
+  &__phone, &__about {
+    text-align: center;
+  }
+
+  &__below {
+    display: flex;
+    justify-content: center;
+    padding: $gutter;
+    color: #a4a4a4;
+    border-top: 1px solid #ffffff;
+
+  }
+
+}
