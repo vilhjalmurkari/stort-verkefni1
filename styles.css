@@ -102,9 +102,6 @@ p {
     margin: 10px;
     font-size: 2rem;
     color: #dedede;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     padding: 10px;
     cursor: pointer;
     background: #666;
@@ -130,3 +127,78 @@ p {
     max-width: 49.167%; }
   .service__list {
     max-width: 49.167%; }
+
+.review {
+  display: flex;
+  justify-content: space-between; }
+  .review__person {
+    max-width: 32%; }
+  .review__image {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  .review__img {
+    max-width: 80%;
+    border-radius: 100%; }
+  .review__quote {
+    margin-bottom: 10px;
+    height: 3.9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-style: italic;
+    font-size: 1.3125rem;
+    font-weight: 600; }
+  .review__name {
+    font-weight: 600;
+    text-align: center; }
+  .review__subscription {
+    font-size: 0.875rem;
+    color: #727272;
+    text-align: center; }
+
+.buy-service {
+  margin-top: 160px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+  .buy-service__text {
+    font-size: 1.3125rem;
+    font-weight: bolder;
+    font-family: 'Roboto Slab', serif; }
+  .buy-service__button {
+    width: 21%; }
+  .buy-service button {
+    margin-top: 10px;
+    font-size: 2rem;
+    color: #dedede;
+    padding: 10px 60px;
+    cursor: pointer;
+    background: #666;
+    border: 1px solid #666;
+    border-radius: 4px; }
+  .buy-service button:hover {
+    background-color: #333;
+    transition-timing-function: ease;
+    transition-duration: 500ms; }
+
+.footer {
+  background-color: #323232; }
+  .footer__above {
+    margin: 0 20%;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: space-around;
+    color: #ffffff; }
+  .footer__phone, .footer__about {
+    text-align: center; }
+  .footer__below {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    color: #a4a4a4;
+    border-top: 1px solid #ffffff; }
