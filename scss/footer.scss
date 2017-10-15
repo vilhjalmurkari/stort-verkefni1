@@ -16,6 +16,8 @@
   }
 
   &__below {
+
+    margin: 0 2 * $gutter;
     display: flex;
     justify-content: center;
     padding: $gutter;

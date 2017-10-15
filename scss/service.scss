@@ -1,18 +1,27 @@
 .service {
 
-  margin-top: 2 * $gutter;
-  margin-bottom: 2 * $gutter;
+  margin: 2 * $gutter;
 
   display: flex;
   justify-content: space-between;
 
-
   &__image {
     max-width: 49.167%;
-
   }
 
   &__list {
     max-width: 49.167%;
+    margin-left: $gutter;
   }
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+  }
+
+
+
+
 }

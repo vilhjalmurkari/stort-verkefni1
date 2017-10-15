@@ -1,6 +1,7 @@
 .review {
   display: flex;
   justify-content: space-between;
+  margin: 0 2 * $gutter;
 
 
   &__person {
